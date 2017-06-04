@@ -141,3 +141,30 @@ video {
 	border-radius: 8px;
 	background-color: pink;
 }
+
+/*beneficios*/
+#services{
+	display: flex;
+	background-position: right;
+	background-attachment: fixed;
+	background-repeat: no-repeat;
+	justify-content: center;
+	flex-direction: column;
+}
+.box-services{
+	font-size: 1.2em;
+	font-weight: bold;
+	justify-content: right;
+
+}
+.services img{
+	flex-direction: row;
+	top: 0;
+	left: 0;
+	z-index: 1;
+}
+.services.flex-container{
+
+}
+img{
+	
