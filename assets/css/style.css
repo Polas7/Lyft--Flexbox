@@ -145,26 +145,13 @@ video {
 /*beneficios*/
 #services{
 	display: flex;
-	background-position: right;
-	background-attachment: fixed;
-	background-repeat: no-repeat;
-	justify-content: center;
-	flex-direction: column;
+	justify-content: flex-end;
+	margin-left: 100px;
+	margin-top: 100px;
 }
-.box-services{
-	font-size: 1.2em;
-	font-weight: bold;
-	justify-content: right;
 
+#phone.flex-container{
+	width: 1px;
 }
-.services img{
-	flex-direction: row;
-	top: 0;
-	left: 0;
-	z-index: 1;
-}
-.services.flex-container{
 
-}
-img{
 	
